@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#fff"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:onClick="back"
+            android:padding="5dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="反  馈"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE" />
+
+    <!--    <RelativeLayout-->
+    <!--        android:id="@+id/pathselect_title"-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="46dp"-->
+    <!--        android:background="@drawable/chat_title_bg_repeat"-->
+    <!--        android:gravity="center_vertical">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/main_title_name"-->
+    <!--            style="@style/A1_Font"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="fill_parent"-->
+    <!--            android:layout_centerInParent="true"-->
+    <!--            android:ellipsize="end"-->
+    <!--            android:gravity="center"-->
+    <!--            android:paddingLeft="96dp"-->
+    <!--            android:paddingRight="96dp"-->
+    <!--            android:singleLine="true"-->
+    <!--            android:text="反馈" />-->
+    <!--    </RelativeLayout>-->
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_bg"
+        android:fillViewport="true">
+
+        <EditText
+            android:id="@+id/fee_back_edit"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@null"
+            android:gravity="left|top"
+            android:hint="说些什么吧..."
+            android:inputType="textMultiLine"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:textSize="16.0sp" />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/feed_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/login_btn_bg_blue"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="提  交"
+        android:textColor="#fff" />
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SellFinshActivity">
+
+    <include layout="@layout/headset" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:padding="15dp">
+
+
+        <!--物流状态-->
+        <TextView
+            android:id="@+id/express_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="业务信息"
+            android:textColor="#333333" />
+        <!--快递公司-->
+        <TextView
+            android:id="@+id/express_company_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/express_status_tv"
+            android:layout_alignStart="@id/express_status_tv"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="受理编号：20190400198"
+            android:textColor="#666666" />
+        <!--快递单号-->
+        <TextView
+            android:id="@+id/express_number_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/express_company_tv"
+            android:layout_alignStart="@id/express_company_tv"
+            android:text="2019-05-12 10:24"
+            android:textColor="#666666"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#fff"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="买方：贺良烨" />
+
+    <TextView
+        android:id="@+id/savephoto"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/green_shape"
+        android:gravity="center"
+        android:text="生成电子证照"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="该不动产登记业务已办结。"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="① 相应不动产电子证照已生成。不动产权利人可通过滨州市不动产登记中心微信公众号，滨e登APP或滨州市不动产登记中心网站进行相看或下载保存。" />
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="② 不动产电子证照是证明权利人享有该不动产权利的有效电子凭证，与纸质不动产权证书（证明）具有同等效力。不动产权利人可持本人不动产电子证照在政府相关部门、金融机构、社会公共服务机构等办理相关手续，由相关部门或机构对该不动产电子证照真伪及有效性进行查验。" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/blue_shape"
+        android:gravity="center"
+        android:text="返回"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+</LinearLayout>

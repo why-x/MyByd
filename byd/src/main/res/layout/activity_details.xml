@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context=".activity.DetailsActivity">
+
+    <include layout="@layout/headset" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/de1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f2f2f2"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="不动产首次登记（国有建设用地使用权）"
+                    android:textColor="#505050"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/sljgdz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="14dp"
+                    android:text="滨州市不动产登记中心"
+                    android:textColor="#505050"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:text="2019-8-8"
+                    android:textColor="#a6a6a6"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ff691a"
+                    android:gravity="center"
+                    android:text="登记"
+                    android:textColor="#fff"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#fff"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ic_play" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:lines="1"
+                            android:text="不动产首次登记（国有建设用地使用权）"
+                            android:textColor="#808080"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="02：42           2.3MB"
+                            android:textColor="#a6a6a6"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/download" />
+
+                </LinearLayout>
+                <WebView
+                    android:id="@+id/mwebview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></WebView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="建议WiFi环境下播放"
+                    android:textColor="#a6a6a6"
+                    android:textSize="11sp" />
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:text="一、提交材料及要求"-->
+                    <!--android:textColor="#505050"-->
+                    <!--android:textSize="13sp" />-->
+                <!--<TextView-->
+                    <!--android:id="@+id/sjcl"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="1.不动产登记申请表（原件）；\n-->
+<!--2.申请人身份证明(原件)；\n-->
+<!--3.不动产权证（土地使用证）（原件）；\n-->
+<!--4.建设工程规划许可证（原件）；\n-->
+<!--5.房屋竣工验收资料（联合验收或竣工验收备案证明）（原件）；\n-->
+<!--6.不动产测量报告（原件）；\n-->
+<!--7.建筑物区分所有权属业主共有部分的证明材料（原件）；\n-->
+<!--8.法律、法规、《实施细则》规定的其他必要材料。\n-->
+<!--二、办理程序\n-->
+<!--申请—受理—审核登簿—收费—发证\n-->
+<!--三、承诺时限\n-->
+<!--自受理登记申请之日起10个工作日内办结。\n-->
+<!--四、收费依据\n-->
+<!--国家发展改革委、财政部《关于不动产登记收费标准等有关问题的通知》（发改价格规〔2016〕2559号）"-->
+                    <!--android:textColor="#505050"-->
+                    <!--android:textSize="13sp" />-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="200dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/de" />-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#e5e5e5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/left" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="前一篇"
+                            android:textColor="#505050"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="后一篇"
+                            android:textColor="#505050"
+                            android:textSize="13sp" />
+
+                        <ImageView
+
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/right" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

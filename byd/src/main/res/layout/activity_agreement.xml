@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AgreementActivity">
+<LinearLayout
+    android:padding="15dp"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="服务协议"
+        android:textColor="#505050"
+        android:textSize="17sp"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="认证服务协议（以下简称“本协议”）是芝麻信用管理有限公司（以下简称“芝麻信用”）与用户（以下尊
+称“您”）就认证服务（以下简称“本服务”或“认证服务”）的使用等相关事项所订立的有效合约。
+本协议有助于您了解我们为您提供的服务内容及您的权利和义务，请您仔细阅读，对于尤为重要的条
+款，我们已予以加粗，以特别提醒您加以注意。
+为便于您使用认证服务，您通过网络页面点击或以其他形式确认本协议的，即视为您已充分理解本协议
+所有条款，并同意与芝麻信用订立本协议并接受本协议的约束。
+如您在同
+2.1为了向您第
+3.1芝麻信用会尽通"
+        android:textColor="#505050"
+        android:textSize="16sp"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/cancle"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:background="#c1c1c1"
+            android:text="取消"
+            android:gravity="center"
+            android:textColor="#505050"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/agree"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:background="#8fc6a6"
+            android:text="同意（10）"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

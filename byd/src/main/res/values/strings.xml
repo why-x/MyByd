@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">滨e登</string>
+    <string name="title_home">首页</string>
+    <string name="title_class">业务指南</string>
+    <string name="title_car">查进度</string>
+    <string name="title_my">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

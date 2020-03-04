@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.advance.AdvanceDataZXActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/headset" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:paddingBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="鲁（ " />
+
+                <EditText
+                    android:paddingLeft="5dp"
+                    android:textSize="12sp"
+                    android:id="@+id/time"
+                    android:inputType="number"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/addshape" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ）" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"></Spinner>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="end"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-15dp"
+                    android:text="第 " />
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/number"
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:paddingLeft="5dp"
+                    android:textSize="12sp"
+                    android:background="@drawable/addshape"
+                    android:lines="1" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 号" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="权利人（抵押权人）"
+                android:textColor="#a9a9a9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="中国农业银行股份有限公司滨州分行" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/starsearch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/green_shape"
+            android:gravity="center"
+            android:text="下一步"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:text="提示：房屋所有权证书或不动产权证书附记有杂物房、车库、车位等内容的，需要到线下窗口办理。"
+            android:textColor="#d43030" />
+    </LinearLayout>
+
+</ScrollView>

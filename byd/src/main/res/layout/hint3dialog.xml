@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:text="操作提示"
+        android:textColor="#505050"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="需要申请人本人进行身份认证，全部申请人认证通过后该业务将提交系统自动办理。"
+        android:textColor="#383838"
+        android:textSize="13sp" />
+
+    <TextView
+        android:background="#ffeb3b"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="该不动产物权将发生转移，所填写的相关信息将无法修改，请确认录入信息真实，准确，完整。"
+        android:textColor="#383838"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="是否继续？"
+        android:textColor="#383838"
+        android:textSize="13sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#64efefef"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#64505050"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/sure"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="#8fc6a6"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

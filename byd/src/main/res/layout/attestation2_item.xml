@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="不动产单元号："
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="450104005004GB00342F00100025"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="不动产权证号："
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="桂(2018)滨州市不动产权第 0030301 号"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="权利类型"
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="国有建设用地使用权/房屋所有权"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="登记类型"
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="转移登记"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="申请方式："
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="双方申请"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="不动产坐落："
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="11dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="滨州市青秀区青秀中9号盛天茗城2号楼1单元 2701号"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="房屋面积："
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="11dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="108.46"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="成交总价（元）："
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="11dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="810400"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="买方："
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="11dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="贺良烨"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#fff"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="卖方："
+            android:textColor="#505050" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="11dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="赵章"
+            android:textColor="#505050"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

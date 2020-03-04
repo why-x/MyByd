@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.master.byd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup,android:icon">
+        <activity android:name=".activity.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.MainActivity" />
+
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="360" />
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="640" />
+
+        <activity android:name=".activity.MySetActivity" />
+        <activity android:name=".activity.AppMessActivity" />
+        <activity android:name=".activity.BusinessActivity" />
+        <activity android:name=".activity.DetailsActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.AgreementActivity" />
+        <activity android:name=".activity.CheckActivity" />
+        <activity android:name=".activity.InspectionActivity" />
+        <activity android:name=".activity.WhthinActivity" />
+        <activity android:name=".activity.Whthin2Activity" />
+        <activity android:name=".activity.CertificationActivity" />
+        <activity android:name=".activity.ProgressActivity" />
+        <activity android:name=".activity.Progress2Activity" />
+        <activity android:name=".activity.PayFActivity" />
+        <activity android:name=".activity.Progress3Activity" />
+        <activity android:name=".activity.SellActivity" />
+        <activity android:name=".activity.ProposerActivity" />
+        <activity android:name=".activity.AddSellActivity" />
+        <activity android:name=".activity.CompleteActivity" />
+        <activity android:name=".activity.PayHouseActivity" />
+        <activity android:name=".activity.Pay2Activity" />
+        <activity android:name=".activity.SellFinshActivity" />
+        <activity android:name=".activity.Complete2Activity" />
+        <activity android:name=".activity.AttestationActivity" />
+        <activity android:name=".activity.Attestation2Activity" />
+        <activity android:name=".activity.PayLActivity" />
+        <activity android:name=".activity.CertificateActivity" />
+        <activity android:name=".activity.StatisticsActivity" />
+        <activity android:name=".activity.Home2Activity" />
+        <activity android:name=".activity.NewsDetailsActivity" />
+        <activity android:name=".activity.advance.AdvanceDataActivity" />
+        <activity android:name=".activity.advance.AdvanceProposerActivity" />
+        <activity android:name=".activity.OnSellerActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.master.byd"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity android:name=".activity.EquityActivity" />
+        <activity android:name=".activity.ScanActivity" />
+        <activity android:name=".activity.SKMessageActivity" />
+        <activity android:name=".activity.advance.AdvHouseActivity" />
+        <activity android:name=".activity.advance.AdvSellActivity" />
+        <activity android:name=".activity.advance.AdvYWBLActivity" />
+        <activity android:name=".activity.advance.AdvHouse2Activity" />
+        <activity android:name=".activity.advance.AdvHouse3Activity" />
+        <activity android:name=".activity.advance.AdvProposerActivity" />
+        <activity android:name=".activity.advance.AdvAttestationActivity" />
+        <activity android:name=".activity.advance.AdvanceDataZXActivity" />
+        <activity android:name=".activity.advance.AdvanceProposerZXActivity"></activity>
+    </application>
+
+</manifest>

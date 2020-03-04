@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:text="用户须知"
+        android:textColor="#505050"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5" />
+
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      本服务由腾讯实名核身技术方案“腾讯慧眼”提供技术支持。您在接受服务过程中，需要调用您手机摄像头，并且根据业务场景不同，需要读取您的身份证个人信息，包括姓名、公民身份证号、本人照片、证件的有效期和签发公安机关等信息。或者截取您的脸部图像和认证视频，从而实现身份比对。如您使用不成功，请确保您已经按要求正确使用本服务，或者向为您办理业务的机构咨询其他办理渠道。"
+        android:textColor="#383838"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/cancle"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我知道了"
+        android:textColor="#3393fc"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>

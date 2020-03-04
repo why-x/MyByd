@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".activity.Progress3Activity">
+
+    <include layout="@layout/headset" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:padding="15dp">
+
+
+                <!--物流状态-->
+                <TextView
+                    android:id="@+id/express_status_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="预购商品房抵押权预告登记"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+                <!--快递公司-->
+                <TextView
+                    android:id="@+id/express_company_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/express_status_tv"
+                    android:layout_alignStart="@id/express_status_tv"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="权利人：常州华夏银行大光路分行"
+                    android:textColor="#666666"
+                    android:textSize="15sp" />
+                <!--快递单号-->
+                <TextView
+                    android:id="@+id/express_number_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/express_company_tv"
+                    android:layout_alignStart="@id/express_company_tv"
+                    android:layout_marginTop="10dp"
+                    android:text="流水号：2019041200000198"
+                    android:textColor="#666666"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+            <!--追踪的列表-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/traceRv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:paddingLeft="12dp"
+                android:paddingTop="20dp"
+                android:paddingRight="12dp" />
+
+            <TextView
+                android:id="@+id/fre"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_margin="35dp"
+                android:background="@drawable/blue_shape"
+                android:gravity="center"
+                android:text="返回"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

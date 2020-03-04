@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+
+        android:id="@+id/blsj"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="2016-09-18 11:54"
+        android:gravity="center"
+        android:textColor="#999999"
+        android:textSize="11sp" />
+
+    <!--<TextView-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:id="@+id/accept_time_tv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/blsj"-->
+        <!--android:text="11:54"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:textColor="#999999"-->
+        <!--android:textSize="11sp" />-->
+
+
+    <ImageView
+        android:layout_toRightOf="@id/blsj"
+        android:id="@+id/dot_iv"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dot_black" />
+    <!--快件接收站点-->
+    <TextView
+        android:id="@+id/accept_statu_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignTop="@id/dot_iv"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/dot_iv"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        tools:text=" " />
+    <!--快件接收时间-->
+    <TextView
+        android:id="@+id/bljd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/accept_statu_tv"
+        android:layout_below="@id/accept_statu_tv"
+        android:layout_marginEnd="15dp"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        tools:text="您的登记办件已提交，并由不动产登记中心平台核验权利人和权证信息后自动受理。" />
+
+    <!--分割线-->
+    <View
+        android:id="@+id/divider_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignStart="@id/bljd"
+        android:layout_below="@id/bljd"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#eeeeee" />
+    <View
+        android:id="@+id/empty_view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/divider_line_view"
+        android:layout_marginStart="15dp" />
+    <View
+        android:id="@+id/time_line_view"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_above="@id/empty_view"
+        android:layout_alignStart="@id/dot_iv"
+        android:layout_below="@id/dot_iv"
+        android:layout_marginStart="7dp"
+        android:background="#eeeeee" />
+</RelativeLayout>

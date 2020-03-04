@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:text="操作提示"
+        android:textColor="#505050"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5" />
+
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已提交[赵章]认证。"
+        android:textColor="#383838"
+        android:textSize="13sp"
+        />
+
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+
+        <TextView
+            android:id="@+id/sure"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/green_shape"
+            android:text="确定"
+            android:textColor="#fff"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

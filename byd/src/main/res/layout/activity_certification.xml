@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.CertificationActivity">
+
+    <include layout="@layout/headset" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#18649f"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="您即将进行"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="滨州公安"
+            android:textColor="#fff"
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="由滨州公安提供服务"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="122px"
+        android:layout_margin="30dp"
+        android:background="#18649f"
+        android:gravity="center"
+        android:text="开始验证"
+        android:textColor="#fff"
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="35dp">
+
+        <Switch
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/switch_custom_thumb_selector"
+            android:track="@drawable/switch_custom_track_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 我已认真阅读并同意"
+            android:textColor="#505050"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/agreea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 全部协议"
+            android:textColor="#3393fc"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

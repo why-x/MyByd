@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>滨城区不动产登记分中心</item>
+    </string-array>
+    <string-array name="ctype2">
+        <item>不动产权证</item>
+
+    </string-array>
+    <string-array name="ctype3">
+        <item>请选择省份</item>
+
+    </string-array>
+    <string-array name="ctype4">
+        <item>请选择城市</item>
+
+    </string-array>
+    <string-array name="ctype5">
+        <item>↑</item>
+
+    </string-array>
+</resources>
